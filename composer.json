@@ -1,0 +1,27 @@
+{
+    "name": "magenable/module-base",
+    "description": "Magenable base module",
+    "require": {
+        "magento/framework": ">=102.0",
+        "magenable/module-admin-notification-feed": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Magenable",
+            "email": "support@magenable.com.au",
+            "homepage": "https://magenable.com.au",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magenable\\Base\\": ""
+        }
+    }
+}
